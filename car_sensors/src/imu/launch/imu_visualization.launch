@@ -1,0 +1,6 @@
+<launch>
+
+
+  <node name="imu_visual" pkg="imu9" type="imu.py" output="screen"/>
+
+</launch>

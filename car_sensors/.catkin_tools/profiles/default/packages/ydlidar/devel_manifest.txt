@@ -1,0 +1,7 @@
+lidar
+/home/kastro/ws_autonomous_car/car_sensors/devel/.private/ydlidar/cmake.lock /home/kastro/ws_autonomous_car/car_sensors/devel/./cmake.lock
+/home/kastro/ws_autonomous_car/car_sensors/devel/.private/ydlidar/lib/ydlidar/ydlidar_client /home/kastro/ws_autonomous_car/car_sensors/devel/lib/ydlidar/ydlidar_client
+/home/kastro/ws_autonomous_car/car_sensors/devel/.private/ydlidar/lib/ydlidar/ydlidar_node /home/kastro/ws_autonomous_car/car_sensors/devel/lib/ydlidar/ydlidar_node
+/home/kastro/ws_autonomous_car/car_sensors/devel/.private/ydlidar/lib/pkgconfig/ydlidar.pc /home/kastro/ws_autonomous_car/car_sensors/devel/lib/pkgconfig/ydlidar.pc
+/home/kastro/ws_autonomous_car/car_sensors/devel/.private/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake /home/kastro/ws_autonomous_car/car_sensors/devel/share/ydlidar/cmake/ydlidarConfig-version.cmake
+/home/kastro/ws_autonomous_car/car_sensors/devel/.private/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake /home/kastro/ws_autonomous_car/car_sensors/devel/share/ydlidar/cmake/ydlidarConfig.cmake
