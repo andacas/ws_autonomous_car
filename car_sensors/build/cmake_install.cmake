@@ -131,7 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kastros/ws_autonomous_car/car_sensors/build/gtest/cmake_install.cmake")
-  include("/home/kastros/ws_autonomous_car/car_sensors/build/ydlidar/cmake_install.cmake")
+  include("/home/kastros/ws_autonomous_car/car_sensors/build/lidar/cmake_install.cmake")
 
 endif()
 
