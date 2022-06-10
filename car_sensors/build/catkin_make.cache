@@ -1,0 +1,2 @@
+ydlidar
+-DCATKIN_DEVEL_PREFIX=/home/kastros/ws_autonomous_car/car_sensors/devel -DCMAKE_INSTALL_PREFIX=/home/kastros/ws_autonomous_car/car_sensors/install -G Unix Makefiles

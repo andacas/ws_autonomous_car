@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/kastros/ws_autonomous_car/car_sensors/install/setup.sh
