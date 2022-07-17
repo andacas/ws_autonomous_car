@@ -1,6 +1,6 @@
 <launch>
 
-
+  <param name="imu_port_name" value="/dev/ttyUSB0"/>
   <node name="imu_visual" pkg="imu9" type="imu.py" output="screen"/>
 
 </launch>

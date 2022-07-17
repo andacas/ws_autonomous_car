@@ -2,7 +2,7 @@
 
      <node name="ydlidar_node" pkg="ydlidar" type="ydlidar_node" output="screen" respawn="false" >
 
-      <param name="port" type="string" value="/dev/ydlidar"/>
+      <param name="port" type="string" value="/dev/ttyUSB2"/>
 
       <param name="baudrate" type="int" value="128000"/>
 

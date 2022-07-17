@@ -1,0 +1,4 @@
+<launch>
+ <include file="$(find ydlidar)/launch/hmap.launch" launch-prefix="xterm -e"/>
+ <include file="$(find imu9)/launch/imu_visualization.launch" launch-prefix="xterm -e" />
+</launch>

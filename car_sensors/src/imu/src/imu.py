@@ -31,7 +31,7 @@ class ImuAttributes(Imu):
 class ImuMessages(object):
     """ ROS message translation for UTexas BWI segbot Arduino imu ranges. """
     def __init__(self):
-
+        port = rospy.get_param("imu_port_name")
         rospy.init_node('imu_publisher', anonymous=True)
         self.pubs = rospy.Publisher('imu', Imu, queue_size=10)
 
@@ -39,7 +39,7 @@ class ImuMessages(object):
 
 
 
-        self.serial = serial.Serial('/dev/ttyUSB0', 115200)
+        self.serial = serial.Serial(port, 115200)
 
         #self.rate = rospy.Rate(1) #1000hz
 
