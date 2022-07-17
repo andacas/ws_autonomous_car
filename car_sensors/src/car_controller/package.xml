@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package  format="2">
+<name>car_controller</name>
+<version>0.0.1</version>
+<description>
+ base package for controlling the car
+</description>
+<maintainer email="andacast@espol.edu.ec">
+ kastro
+</maintainer>
+<license>TODO</license>
+
+<buildtool_depend>catkin</buildtool_depend>
+<build_export_depend>message_runtime</build_export_depend>
+<exec_depend>message_runtime</exec_depend>
+
+<depend>message_generation</depend>
+<depend>std_msgs</depend>
+<depend>roscpp</depend>
+<depend>geometry_msgs</depend>
+</package>
