@@ -1,4 +1,7 @@
 <launch>
- <include file="$(find ydlidar)/launch/hmap.launch" launch-prefix="xterm -e"/>
- <include file="$(find imu9)/launch/imu_visualization.launch" launch-prefix="xterm -e" />
+ <include file="$(find ydlidar)/launch/hmap.launch" />
+ <include file="$(find imu9)/launch/imu_visualization.launch"/>
+ <include file="$(find gps)/launch/gps.launch"/>
+ <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+  <node pkg="tf" type="static_transform_publisher" name="laser_to_camera" args="0.2245 0.0 0.2 0.0 0.0 0.0 /laser_frame /camera_link 40" />
 </launch>
